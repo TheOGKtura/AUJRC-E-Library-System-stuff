@@ -45,7 +45,7 @@ The landing page has been fiddled out and I think we've came to the conclusion o
 - [ ] "Could add book of the week." (Optional: don't do if too hard.)
 - [ ] "Add activity logs." *(IMPORTANT)*
 - [ ] "Research about the School Library of how the process of viewing books work."
-- [ ] "Next presentation must be navigated throgouhly." *(Feb. 28 [?])*
+- [ ] "Next presentation must be navigated throgouhly." *(Feb. 28)*
 ****
 ### probably not possible
 - [ ] "Maximum of how many books that can be borrowed." (Research thoroughly, discuss with the group.)
