@@ -2,7 +2,7 @@
 
 ## I expect naman din na alam niyo na kung pano i-setup IDE niyo para sa mga files dito, pero kung hindi, msg nalang ako don sa gc.
 
-### [Project Link](https://github.com/users/TheOGKtura/projects/1)
+## [Project Link](https://github.com/users/TheOGKtura/projects/1)
 ****
 ## If making a Pull Request:
 
