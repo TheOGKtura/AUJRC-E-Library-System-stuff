@@ -11,6 +11,7 @@ Paki-specify nalang kung ano mga binago niyo don gamit yung Changelog.md
 # Changelog.md Format
 
 (Name)
+
 (Date and Time)
 
 (Changes)
@@ -18,6 +19,7 @@ Paki-specify nalang kung ano mga binago niyo don gamit yung Changelog.md
 # Changelog.md Example
 
 Keoj
+
 08/02/2022 16:29/4:29PM
 
 Nilagyan ng landing page (yada yada, siyempre dat mas-malinis, pero example lang naman to xd)
