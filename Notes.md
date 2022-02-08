@@ -10,9 +10,9 @@
 **Keoj**
 
 ### Assist:
-**Jude**
-**Nicolai**
-**Eaonne**
+**Jude** |
+**Nicolai** |
+**Eaonne** |
 
 #### Database:
 **Leones**
