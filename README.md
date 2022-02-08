@@ -1,6 +1,6 @@
 # AUJRC-E-Library-System-stuff
 
-# I expect naman din na alam niyo na kung pano i-setup IDE niyo para sa mga files dito, pero kung hindi, msg nalang ako don sa gc.
+## I expect naman din na alam niyo na kung pano i-setup IDE niyo para sa mga files dito, pero kung hindi, msg nalang ako don sa gc.
 
 ****
 ## If making a Pull Request:
