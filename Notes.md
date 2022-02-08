@@ -4,8 +4,6 @@
 
 
 ## *Programmer/Coder:*
-### [Repository](https://github.com/TheOGKtura/AUJRC-E-Library-System-stuff)
-### [Projects](https://github.com/users/TheOGKtura/projects/1)
 ### Lead:
 **Keoj**
 
