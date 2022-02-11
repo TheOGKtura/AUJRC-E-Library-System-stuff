@@ -1,6 +1,7 @@
 # AUJRC-E-Library-System-stuff
 
 ## I expect naman din na alam niyo na kung pano i-setup IDE niyo para sa mga files dito, pero kung hindi, msg nalang ako don sa gc.
+## Pakicheck nadin ng system branch
 
 ## [Project Link](https://github.com/users/TheOGKtura/projects/1)
 ****
