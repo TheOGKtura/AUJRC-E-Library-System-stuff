@@ -19,3 +19,9 @@ Added Changelog.md to repository
 
 Adjusted README.md
 ****
+Eaonne 20/02/2022
+
+Organized the code
+
+Added Login, Sign-in, Logout to Landingpage(?)
+*****
