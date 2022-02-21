@@ -25,3 +25,9 @@ Organized the code
 
 Added Login, Sign-in, Logout to Landingpage(?)
 *****
+Eaonne 21/02/2022 6:25 PM
+
+Adjusted few things to the login and register page
+
+Change the look of login and register page
+*****
