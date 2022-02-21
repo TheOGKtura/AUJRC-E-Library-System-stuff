@@ -114,7 +114,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {  background-color: #284394; font-family: "Roboto Condensed", sans-serif;}
-        .wrapper{ width: 350px; padding: 20px; }
+        .wrapper {  
+
+            border: 3px solid black; 
+          background-color: lightblue;  
+            width: 350px;
+             padding: 20px; 
+             box-shadow: 5px 10px #203145
+         }
 
         .navbar{
           float: left;
@@ -146,7 +153,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <h2 style="margin-left: 70px; margin-top: 10px;">Library Management System</h2>
         </header>
 	</div>
-    <div style="width: 340px; margin: 50px auto; font-size: 15px;color: white;" class="wrapper">
+    <div style="width: 340px; margin: 50px auto; font-size: 15px;color: #203145;" class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your account to login.</p>
         
@@ -169,7 +176,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
-                <a href="index.php" class="btn btn-info">back<span class="glyphicon glyphicon-menu-left"></span></a>
+                <a href="index.php" class="btn btn-info">back</a>
           </div>
         </form>
     
