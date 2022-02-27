@@ -20,16 +20,22 @@ this is to make the localhost work-->
 <ul class="nav-area">
 <li><a href="index.php">Home</a></li>
 <li><a href="booklist.php">Booklist</a></li>
-<li><a href="insert.php">Sign Up</a></li>
+<li><a href="signup.php">Sign Up</a></li>
 <li><a href="login.php">Log In</a></li>
 <li><a href="help.php">Help</a></li>
 </ul>
 </div>
 <div class="welcome-text">
-<h1>Welcome To The<span> HOME OF CHIEFS</span></h1>
-<a href="#">Contact US</a>
-    </div>
+<h1>Booklist</h1>
+<div class="books">
+    <a href="bookpage.php">
+    <img src="bookimages/war of art.jpg">
+    <div class ="desc"> War of Art </div>
+</a>
+</div>
 </header>
-
+<footer>
+    All Right Reserved Web Master
+</footer>
 </body>
 </html>

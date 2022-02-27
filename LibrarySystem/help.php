@@ -22,8 +22,8 @@
 </ul>
 </div>
 <div class="welcome-text">
-<h1>Welcome To The<span> HOME OF CHIEFS</span></h1>
-<a href="#">Contact US</a>
+<h1>Help</h1>
+<a href="#">Contact Us</a>
     </div>
 </header>
 

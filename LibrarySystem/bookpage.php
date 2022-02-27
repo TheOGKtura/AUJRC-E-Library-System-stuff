@@ -1,3 +1,17 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+
+}
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,15 +28,15 @@
             <img src="images/fau.png" alt="">
         </div>
 <ul class="nav-area">
-<li><a href="index.php">Home</a></li>
+<li><a href="home.php">Home</a></li>
 <li><a href="booklist.php">Booklist</a></li>
-<li><a href="signup.php">Sign Up</a></li>
-<li><a href="login.php">Log In</a></li>
+<li><a href="#"><?php echo htmlspecialchars($_SESSION["username"]); ?></a></li>
+<li><a href="Log-out.php">Log-out</a></li>
 <li><a href="help.php">Help</a></li>
 </ul>
 </div>
 <div class="welcome-text">
-<h1>Arellano University<span> Library System</span></h1>
+<h1>Bookpage redirect<span> works</span></h1>
     </div>
 </header>
 

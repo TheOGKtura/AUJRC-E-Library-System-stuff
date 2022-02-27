@@ -122,7 +122,7 @@ require_once "database/config.php"
       <input style="margin-left: 21px;" type="password" name="password" id="password" required="">
       <br> 
       <input  type="submit" class="btn btn-success"value="Register">
-      <a type="button" class="btn btn-primary" href="index.php" style="margin-left: 5px; ">Back</a>
+      <a type="button" class="btn btn-primary" href="index.php" style="margin-left: 5px; ">Back to Home</a>
     </form>
     
  

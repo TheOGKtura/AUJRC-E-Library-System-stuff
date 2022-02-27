@@ -75,7 +75,39 @@ header {
     background: #fff;
     color: #333;
 }
-/*resposive*/
+.books{
+    position: relative;
+    margin: 5px;
+    float: left;
+    width: 390px;
+}
+.books img{
+    position: relative;
+    width: 179px;
+    height: 292px;
+}
+.desc{
+    width: 250px;
+    text-align: center;
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: bold;
+    color: black;
+    background-color: #336699;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #336699;
+    color:white;
+    font-family: poppins;
+    letter-spacing: 1px;
+}
+/*responsive*/
 
 @media (max-width:600px) {
     .wrapper {
@@ -86,9 +118,6 @@ header {
         width: 30%;
         text-align: center;
         margin: auto;
-    }
-    img {
-        width: ;
     }
     .nav-area {
         float: none;

@@ -176,7 +176,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
-                <a href="index.php" class="btn btn-info">back</a>
+                <a href="index.php" class="btn btn-info">Back to Home</a>
           </div>
         </form>
     

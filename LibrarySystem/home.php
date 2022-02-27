@@ -36,8 +36,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </ul>
 </div>
 <div class="welcome-text">
-<h1>Welcome To The<span> Library</span></h1>
-<a href="#">Contact US</a>
+<h1>Arellano University<span> Library System</span></h1>
     </div>
 </header>
 

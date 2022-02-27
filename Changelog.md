@@ -1,4 +1,9 @@
 ****
+Keoj 27/02/2022 22:24/10:24PM
+
+Added book function
+About to redo portals because it needs to register the user need to be logged in
+****
 Keoj, Eaonne 27/02/2022 20:45/8:45PM
 
 Brought back and fixed sign up
