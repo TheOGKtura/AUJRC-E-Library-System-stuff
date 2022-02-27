@@ -1,4 +1,10 @@
 ****
+Keoj, Eaonne 27/02/2022 20:45/8:45PM
+
+Brought back and fixed sign up
+Added Help (but it's still empty)
+Finished portals
+****
 Keoj 20/02/2022 14:56/2:56PM
 
 Organized the code (again)

@@ -16,7 +16,7 @@ require_once "database/config.php"
 <head>
   <link rel="shortcut icon" type="x-icon" href="images/tab.png">
   <meta charset="utf-8">
-  <title>Sign Up</title>
+  <title>Sign In</title>
   <!--naglilink sa css ko-->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
 
