@@ -4,7 +4,7 @@ session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: index.php");
+    header("location: login.php");
     exit;
 
 }
@@ -29,10 +29,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div>
 <ul class="nav-area">
 <li><a href="home.php">Home</a></li>
-<li><a href="booklist.php">Booklist</a></li>
+<li><a href="booklistlogin.php">Booklist</a></li>
 <li><a href="#"><?php echo htmlspecialchars($_SESSION["username"]); ?></a></li>
 <li><a href="Log-out.php">Log-out</a></li>
-<li><a href="help.php">Help</a></li>
+<li><a href="helplogin.php">Help</a></li>
 </ul>
 </div>
 <div class="welcome-text">

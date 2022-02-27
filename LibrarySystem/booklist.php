@@ -30,7 +30,7 @@ this is to make the localhost work-->
 <div class="books">
     <a href="bookpage.php">
     <img src="bookimages/war of art.jpg">
-    <div class ="desc"> War of Art </div>
+    <div class ="desc"> The War of Art </div>
 </a>
 </div>
 </header>

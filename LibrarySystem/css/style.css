@@ -4,7 +4,7 @@
 
 }
 .wrapper {
-    width: 1170px;
+    width: 100%;
     margin: auto;
 }
 header {
@@ -45,6 +45,7 @@ header {
     padding: 5px 20px;
 }
 .welcome-text {
+    font-family: poppins;
     position: absolute;
     width: 600px;
     height: 300px;
@@ -58,8 +59,7 @@ header {
     font-size: 60px;
 }
 .welcome-text h1 span {
-    color: #336699
-;
+    color: #336699;
 }
 .welcome-text a {
     border: 1px solid #fff;
@@ -75,11 +75,17 @@ header {
     background: #fff;
     color: #333;
 }
+
+/* Style for the Books */
 .books{
     position: relative;
     margin: 5px;
     float: left;
     width: 390px;
+}
+.books a:hover {
+    background: none;
+    border: none;
 }
 .books img{
     position: relative;
@@ -89,11 +95,11 @@ header {
 .desc{
     width: 250px;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     font-family: poppins;
     font-weight: bold;
-    color: black;
-    background-color: #336699;
+    color: whitesmoke;
+    background-color: #1934a8;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -107,6 +113,69 @@ header {
     font-family: poppins;
     letter-spacing: 1px;
 }
+
+/* Book Page */
+
+.book-page-image{
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    padding-top: 500px;
+}
+.book-page-image img{
+    width: auto;
+    height: 375px;
+}
+.book-page{
+    margin:auto;
+    z-index: 5;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+}
+.book-page-read{
+    margin:auto;
+    padding-top: 150px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+}
+.button {
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    background: #EA0404;
+    cursor: pointer;
+    display: inline-block;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Help Page */
+.help{
+    margin:auto;
+    padding-top: 500px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+}
+
 /*responsive*/
 
 @media (max-width:600px) {

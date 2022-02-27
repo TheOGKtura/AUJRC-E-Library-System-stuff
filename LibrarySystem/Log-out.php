@@ -10,8 +10,6 @@ $_SESSION = array();
  
 // Destroy the session.
 session_destroy();
-
-$conn->query("UPDATE FROM * users SET user_systemStatus = 'Online' WHERE user_id");
  
 // Redirect to login page
 header("location: index.php");

@@ -18,8 +18,6 @@ $username_err = $password_err = $login_err = "";
  
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-
-    $conn->query("UPDATE FROM * users SET user_systemStatus = 'Online' WHERE 'Offline' user_id= ?");
  
     // Check if username is empty
     if(empty(trim($_POST["username"]))){
@@ -150,7 +148,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div>
 		<header class="header">
         <img class="logo" src = "images/aulogo.png"/>
-        <h2 style="margin-left: 70px; margin-top: 10px;">Library Management System</h2>
+        <h2 style="margin-left: 70px; margin-top: 10px;">Library System</h2>
         </header>
 	</div>
     <div style="width: 340px; margin: 50px auto; font-size: 15px;color: #203145;" class="wrapper">

@@ -22,10 +22,13 @@
 </ul>
 </div>
 <div class="welcome-text">
-<h1>Help</h1>
-<a href="#">Contact Us</a>
+<h1>Contact Us</h1>
+    </div>
+    <div class="help">
+        <p>Email: dummyacc@aumail.com </p>
+        <p>Or send us feedback through our form </p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGy0fl_pNxXxqF1lx0ZJ0iy-ixQZ6SjslD8596eUCz-HXlaA/viewform?embedded=true" width="760" height="340" frameborder="1" marginheight="0" marginwidth="100">Loading…</iframe>
     </div>
 </header>
-
 </body>
 </html>

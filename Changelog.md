@@ -1,7 +1,22 @@
 ****
+Keoj 28/02/2022 06:00/06:00AM
+
+Added PDF Viewer for the ability to read
+
+Added Booklist and to view books
+
+Added Embed FB News to Landing Page(soon to be API I hope for automatic shiz [prolly hard])
+
+Added info in Help page with Google Form Embed
+
+Login and Register not having anymore malfunctions
+
+Made many more portals for logged in state (still don't know how to simplify it)
+****
 Keoj 27/02/2022 22:24/10:24PM
 
 Added book function
+
 About to redo portals because it needs to register the user need to be logged in
 ****
 Keoj, Eaonne 27/02/2022 20:45/8:45PM

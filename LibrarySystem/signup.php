@@ -89,7 +89,7 @@ require_once "database/config.php"
    <div>
     <header class="header">
         <img class="logo" src = "images/aulogo.png"/>
-        <h2 style="margin-left: 70px; margin-top: 10px;">Library Management System</h2>
+        <h2 style="margin-left: 70px; margin-top: 10px;">Library System</h2>
     </header>
 
     

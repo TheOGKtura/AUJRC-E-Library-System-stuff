@@ -35,18 +35,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <li><a href="helplogin.php">Help</a></li>
 </ul>
 </div>
-<div class="welcome-text">
-<h1>The War of Art</h1>
-</div>
-<div class="book-page-image">
-         <img src="bookimages/war of art.jpg">
-         <div class="book-page">
-      <p>The War of Art is a 2002 non-fiction book <br> by American author Steven Pressfield.</br> <br>The book highlights the forms of resistance faced by artists,<br> entrepreneurs, athletes, and others who are trying to break </br>through creative barriers.</p>
-<br>
-<div class="button button-read">
-    <a href="bookread.php">READ</a>
-</div>
-<br/>
+<div class="book-page-read">
+    <h1>The War of Art</h1>
+<iframe src="pdfs/the-war-of-art.pdf#toolbar=0" width="750px" height="650px"
+    </div>
 </header>
+
 </body>
 </html>
