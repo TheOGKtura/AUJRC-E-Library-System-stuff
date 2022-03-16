@@ -18,7 +18,8 @@ $username_err = $password_err = $login_err = "";
  
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
- 
+
+    
     // Check if username is empty
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter username.";
@@ -68,7 +69,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;  
 
                             // Redirect user to welcome page
-                            header("location: home.php");
+                            header("location: Admin.php");
                         }
                         if ($access_level == 0) {
 
@@ -113,13 +114,51 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body {  background-color: #284394; font-family: "Roboto Condensed", sans-serif;}
         .wrapper {  
-
-            border: 3px solid black; 
-          background-color: lightblue;  
-            width: 350px;
-             padding: 20px; 
-             box-shadow: 5px 10px #203145
+            width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 5px 10px #203145          
          }
+         .wrapper input[type = "text"],.wrapper input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.wrapper input[type = "text"]:focus,.wrapper input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.wrapper input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.wrapper input[type = "submit"]:hover{
+  background: #2ecc71;
+}
 
         .navbar{
           float: left;
@@ -141,6 +180,27 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           background: #EA0404;
           color: white;
         }  
+        .a{
+  border:0;
+  background: none;
+  
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #58c4b1;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.a:hover{
+  background: #58c4b1;
+  text-decoration: none;
+  color: white
+}
 
     </style>
 </head>
@@ -148,10 +208,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div>
 		<header class="header">
         <img class="logo" src = "images/aulogo.png"/>
-        <h2 style="margin-left: 70px; margin-top: 10px;">Library System</h2>
+        <h2 style="margin-left: 70px; margin-top: 10px;">Library Management System</h2>
         </header>
 	</div>
-    <div style="width: 340px; margin: 50px auto; font-size: 15px;color: #203145;" class="wrapper">
+    <div style="width: 340px; margin: 50px auto; font-size: 15px;color: white;" class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your account to login.</p>
         
@@ -163,18 +223,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group">
-                <label>Username</label>
-                <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                
+                <input type="text" name="username"placeholder="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
                 <span class="invalid-feedback"><?php echo $username_err; ?></span>
             </div>    
             <div class="form-group">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                
+                <input type="password" name="password" placeholder="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
-                <a href="index.php" class="btn btn-info">Back to Home</a>
+                <input type="submit"  value="Login">
+                <a href="index.php" class="a">&laquo; Back</a>
+          </div>
+          
+          <div>
+
           </div>
         </form>
     

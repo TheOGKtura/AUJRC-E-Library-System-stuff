@@ -96,10 +96,10 @@ require_once "database/config.php"
     </div>
 
    <div style="width: 340px; margin: 50px auto; font-size: 15px;" class="wrapper">
-  <h1 style="width: 340px">Register</h1>
-  <p>Please fill up this form to register an account.</p>
+  <h1 style="width: 340px">Admin Register</h1>
+  <p>Please fill up this form to register an Admin account.</p>
   <!--eto ung nagcoconnect sa database-->
-    <form action="insert.php" method="POST">
+    <form action="insertadmin.php" method="POST">
       <label for="firstName">First Name:</label>
       <input style="margin-left: 15px;" type="text" name="firstName" id="firstName" required=""> 
       <br>
@@ -114,9 +114,6 @@ require_once "database/config.php"
       <br>
       <label for="cell_No">Number:</label>
       <input style=" margin-left: 34px; margin-bottom: 8px;" type="text" name="cellNo" id="cellNo" placeholder="+63 (Optional)">
-      <br>
-      <lable for="lrn">LRN#:</lable>
-      <input style=" margin-left: 49px; margin-bottom: 5px;" type="text" name="lrn" id="lrn" required="">
       <br>
       <label for="Username">Username:</label>
       <input style="margin-left: 18px;" type="text" name="username" id="username" required="">
