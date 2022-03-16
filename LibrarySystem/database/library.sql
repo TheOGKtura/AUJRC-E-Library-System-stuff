@@ -73,11 +73,13 @@ CREATE TABLE `users` (
   `middleName` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `cellNo` varchar(255) NOT NULL,
+  `lrn` int(12) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `user_systemStatus` varchar(255) NOT NULL,
   `access_level` int(11) NOT NULL,
   `date_registered` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+ 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
