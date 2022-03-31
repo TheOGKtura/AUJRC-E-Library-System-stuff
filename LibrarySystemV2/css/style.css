@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #022469;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+.nav-area {
+    float:  right;
+    list-style: none;
+    margin-top: 40px;
+    padding-right: 40px;
+}
+.nav-area li {
+    display: inline-block;
+    cursor: pointer;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo {
+    float: left;
+    width: 30%;
+    padding: 10px 20px;
+}
+.logo img {
+    width: 75%;
+    padding: 15px 30px;
+}
+
+/* =Dropdown Menu= */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: poppins;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+/* The container - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    font-family: poppins;
+    font-size: 16px;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,02);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover 
+.dropdown-content {
+    visibility: visible;
+    display: block;
+    color: #333;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover
+.dropbtn {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+/* Banner Things */
+.banner {
+    font-family: poppins;
+    position: absolute;
+    text-align: center;
+    width: 625px;
+    height: 300px;
+    margin: 10% 35%;
+}
+.banner {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
