@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(1.jpg);
+    height: 130vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-color: #022469;
+}
+.nav-area {
+    float:  right;
+    list-style: none;
+    margin-top: 50px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    background-color: #022469;
+}
+.nav-area li {
+    display: inline-block;
+    cursor: pointer;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo {
+    float: left;
+    width: 30%;
+    padding: 0px 20px;
+}
+.logo img {
+    width: 230px;
+    height: 180px;
+    padding: 15px 30px;
+}
+.logo-text {
+    position: absolute;
+    margin: 4.5vh 24vh;
+    text-decoration: underline;
+    font-size: 24px;
+    font-family: poppins;
+    color: #fff;
+}
+
+/* =Dropdown Menu= */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: poppins;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background-color: #022469;
+}
+/* The container - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    font-family: poppins;
+    font-size: 16px;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    background-color: #022469;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,02);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover 
+.dropdown-content {
+    visibility: visible;
+    display: block;
+    color: #333;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover
+.dropbtn {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+/* Banner Things */
+.banner {
+    font-family: poppins;
+    position: absolute;
+    text-align: center;
+    width: 625px;
+    height: 300px;
+    margin: 10% 35%;
+    z-index: 0;
+}
+.banner {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* Book of the Week */
+.botw {
+    font-family: poppins;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    margin: 55vh 24.5vh;
+}
+
+/* Facebook Embedded Posts */
+.embed1 {
+    position: absolute;
+    float: left;
+    z-index: 1;
+    padding: 15vh 20px;
+    margin: 10% 5vh;
+}
+.embed2 {
+    background-color: none;
+    z-index: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+    padding-left: 70vh;
+    margin: 34.5vh 5vh;
+}
+.embed3 {
+    position: absolute;
+    float: right;
+    z-index: 1;
+    padding: ;
+    margin: 34.2vh 140vh;
+}
+
+/* Book Page */
+
+.book-page-image{
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    padding-top: 500px;
+}
+.book-page-image img{
+    width: auto;
+    height: 375px;
+}
+.book-page{
+    margin:auto;
+    z-index: 5;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+}
+.book-page-read{
+    margin:auto;
+    padding-top: 150px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+}
+.button {
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    background: #EA0404;
+    cursor: pointer;
+    display: inline-block;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
